@@ -49,17 +49,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LCX-Ja-mjt">
-                                <rect key="frame" x="20" y="140" width="374" height="56"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LCX-Ja-mjt">
+                                <rect key="frame" x="20" y="160" width="374" height="63"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHR-an-KAK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHR-an-KAK">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfZ-RH-8wH">
-                                        <rect key="frame" x="0.0" y="32" width="374" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfZ-RH-8wH">
+                                        <rect key="frame" x="0.0" y="39" width="374" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -72,7 +72,7 @@
                         <constraints>
                             <constraint firstItem="LCX-Ja-mjt" firstAttribute="leading" secondItem="tqU-6N-6Wg" secondAttribute="leading" constant="20" id="NfZ-Tk-aOe"/>
                             <constraint firstItem="tqU-6N-6Wg" firstAttribute="trailing" secondItem="LCX-Ja-mjt" secondAttribute="trailing" constant="20" id="Zpd-w8-511"/>
-                            <constraint firstItem="LCX-Ja-mjt" firstAttribute="top" secondItem="tqU-6N-6Wg" secondAttribute="top" id="oyZ-IL-Q2A"/>
+                            <constraint firstItem="LCX-Ja-mjt" firstAttribute="top" secondItem="tqU-6N-6Wg" secondAttribute="top" constant="20" id="oyZ-IL-Q2A"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2ue-DU-26w"/>
