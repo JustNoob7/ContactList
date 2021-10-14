@@ -23,8 +23,8 @@ class ContactsListViewController: UITableViewController {
         let contact = contacts[indexPath.row]
         
         content.text = contact.fullname
-
         cell.contentConfiguration = content
+        
         return cell
     }
     
@@ -32,8 +32,7 @@ class ContactsListViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let aboutContactVC = segue.destination as? AboutContactViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        let contact = contacts[indexPath.row]
-        aboutContactVC.contact = contact
+        aboutContactVC.contact = contacts[indexPath.row]
     }
 
 }
