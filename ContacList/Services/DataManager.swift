@@ -19,14 +19,14 @@ class DataManager {
                     "Kekskaya", "Lolo", "Kot",
                     "Al-Barkawi", "Fam", "Debs", "Sinotov"]
     
-    let phoneNumbers = ["+79999785928", "+79991111111", "+79992222222",
+    let phoneNumbers = ["+79999785678", "+79991111111", "+79992222222",
                         "+79993333333", "+79994444444", "+79995555555",
                         "+79996666666", "+79997777777", "+79998888888",
                         "+79999999999"]
     
-    let emails = ["allah@allah.allah", "john@grishin.ru", "boris@kasaev.ru",
-                  "michael@jackson.ru", "TI@winner.org", "anal@lover.ru",
-                  "thirteen@mana.boy", "glina@mes.ru", "kek@lik.ka",
+    let emails = ["another@email.com", "john@grishin.ru", "boris@kasaev.ru",
+                  "michael@jackson.ru", "TI@winner.org", "cappa@twitch.ru",
+                  "thirteen@mana.boy", "schoolboy@gmail.com", "elsif@array.set",
                   "some@email.com"]
     
     private init() {}
